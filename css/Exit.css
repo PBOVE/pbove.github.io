@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+	font-family: 'iconfont';
+	src: url('../font/iconfont.eot');
+	src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/iconfont.woff2') format('woff2'),
+		url('../font/iconfont.woff') format('woff'),
+		url('../font/iconfont.ttf') format('truetype'),
+		url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    display: inline-block;
+	font-family: "iconfont" !important;
+    font-size: 25px;
+    margin-right:10px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#header_top{
+    background-color: #25bb9b;
+    width: 100%;
+    min-width: 1200px;
+    height: 50px;
+}
+#header_top span{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+    margin-left: 50px;
+}
+#Main_page{
+    background-color: #E1E1E1;
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+}
+#Main_page .left{
+    width: 40%;
+    box-sizing: border-box;
+    height: 100%;
+    overflow:auto;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+}
+#Main_page .right{
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+}
+#Main_page .left input[type=text]{
+    border-width: 0px;
+    height:25px;
+    vertical-align:text-bottom;
+    outline: none;
+    text-indent: 0.5em;
+    font-size:18px;
+    width: 200px;
+    margin: 5px 0px 5px 0px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin-left: 15px;
+}
